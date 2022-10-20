@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.25d9f5ab.css",
-    "main.js": "/static/js/main.a90baa61.js",
+    "main.css": "/static/css/main.7b667252.css",
+    "main.js": "/static/js/main.5527a9a8.js",
+    "static/media/Oswald-Bold.ttf": "/static/media/Oswald-Bold.7cbe6aaa312a7b0ce3d1.ttf",
+    "static/media/Oswald-Light.ttf": "/static/media/Oswald-Light.053299f7e6177eec7003.ttf",
     "static/media/wcclogo.png": "/static/media/wcclogo.689c297ac79ded235a6e.png",
     "static/media/digital-7 (mono).ttf": "/static/media/digital-7 (mono).ae951a188b593952b384.ttf",
     "index.html": "/index.html",
-    "main.25d9f5ab.css.map": "/static/css/main.25d9f5ab.css.map",
-    "main.a90baa61.js.map": "/static/js/main.a90baa61.js.map"
+    "main.7b667252.css.map": "/static/css/main.7b667252.css.map",
+    "main.5527a9a8.js.map": "/static/js/main.5527a9a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.25d9f5ab.css",
-    "static/js/main.a90baa61.js"
+    "static/css/main.7b667252.css",
+    "static/js/main.5527a9a8.js"
   ]
 }
