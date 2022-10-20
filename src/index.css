@@ -17,3 +17,13 @@ code {
   font-family: "clock-font";
   src: url('./digital-7/digital-7\ \(mono\).ttf');
 }
+
+@font-face {
+  font-family: "oswald";
+  src: url('./oswald/Oswald-Light.ttf');
+}
+
+@font-face {
+  font-family: "oswald-bold";
+  src: url('./oswald/Oswald-Bold.ttf');
+}

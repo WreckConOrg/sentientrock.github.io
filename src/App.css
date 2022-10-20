@@ -2,27 +2,31 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 15%;
+    margin-top: 3vw;
+    width: 6vw;
 }
 
 .title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: oswald, Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
+    font-size: 2vw;
 }
 
 .days, .hours, .minutes, .seconds {
-    font-family: clock-font, Arial, Helvetica, sans-serif;
-    font-size: 60px;
+    font-family: oswald-bold, Arial, Helvetica, sans-serif;
+    font-size: 9vw;
     color: white;
     float: left;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vw;
 }
 
 .showCounter {
     display: block;
-    margin: auto;
-    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: fit-content
 }
