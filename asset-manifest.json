@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e7e9f64.css",
+    "main.css": "/static/css/main.25d9f5ab.css",
     "main.js": "/static/js/main.a90baa61.js",
     "static/media/wcclogo.png": "/static/media/wcclogo.689c297ac79ded235a6e.png",
     "static/media/digital-7 (mono).ttf": "/static/media/digital-7 (mono).ae951a188b593952b384.ttf",
     "index.html": "/index.html",
-    "main.6e7e9f64.css.map": "/static/css/main.6e7e9f64.css.map",
+    "main.25d9f5ab.css.map": "/static/css/main.25d9f5ab.css.map",
     "main.a90baa61.js.map": "/static/js/main.a90baa61.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e7e9f64.css",
+    "static/css/main.25d9f5ab.css",
     "static/js/main.a90baa61.js"
   ]
 }
