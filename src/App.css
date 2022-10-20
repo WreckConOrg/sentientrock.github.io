@@ -10,17 +10,22 @@
     font-family: oswald, Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 
-.days, .hours, .minutes, .seconds {
+.days, .hours, .minutes, .seconds, .colon {
     font-family: oswald-bold, Arial, Helvetica, sans-serif;
-    font-size: 9vw;
+    font-size: 7vw;
     color: white;
     float: left;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 3vw;
+}
+
+.colon {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .showCounter {
@@ -29,4 +34,28 @@
     margin-right: auto;
     overflow: hidden;
     width: fit-content
+}
+
+.link {
+    font-family: oswald, Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color: lightslategray;
+    text-decoration: none;
+}
+
+.link-body {
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.link-disabled {
+    font-family: oswald, Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color: lightslategray;
+    pointer-events: none;
+    opacity: 0.5;
+    text-decoration: none;
 }

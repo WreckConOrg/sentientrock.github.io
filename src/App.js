@@ -1,6 +1,6 @@
 import './App.css';
 import CountdownTimer from './CountdownTimer'
-import { useState, useEffect } from 'react';
+import InvolvedPage from './InvolvedPage';
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/test" element={<Test />} />
+        <Route path="/get-involved" element={<InvolvedPage />} />
         <Route path="/" element={<Home />}/>
       </Routes>
     </div>
@@ -23,11 +23,6 @@ function App() {
 }
 
 function Home() {
-
-  const [timerLoaded, setTimerLoaded] = useState(false);
-  useEffect(() => {
-    setTimerLoaded(true);
-  }, [])
 
   return (
     <div className="Home">
@@ -37,12 +32,13 @@ function Home() {
         WRECKCON 2023
       </h1>
       <CountdownTimer targetDate={CONDATE} />
+      <div className='link-body'>
+        <Link to={"/get-involved"} className='link'> GET INVOLVED &bull; </Link>
+        <Link to={"/nothing"} className='link-disabled' > TICKETS &bull; </Link>
+        <Link to={"/nothing"} className='link-disabled' > SCHEDULE  </Link>
+      </div>
     </div>
   );
-}
-
-function Test() {
-  return <div> Hello World !</div>
-}
+} 
 
 export default App;
