@@ -8,25 +8,37 @@ const CountdownTimer = ({ targetDate }) => {
     return (
         <div className='showCounter'>
             <p className='days'>
-                {days + 'd'}
+                {days}
+                <p className='label'>
+                    days
+                </p>
             </p>
             <p className='colon'>
                 :
             </p>    
             <p className='hours'>
-                {hours + 'h'}
+                {hours}
+                <p className='label'>
+                    hours
+                </p>
             </p>
             <p className='colon'>
                 :
             </p>
             <p className='minutes'>
-                {minutes + 'm'}
+                {minutes}
+                <p className='label'>
+                    minutes
+                </p>
             </p>
             <p className='colon'>
                 :
             </p>
             <p className='seconds'>
-                {seconds + 's'}
+                {seconds}
+                <p className='label'>
+                    seconds
+                </p>
             </p>
         </div>
     );

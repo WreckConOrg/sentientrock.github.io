@@ -8,7 +8,7 @@ import {
   Link
 } from "react-router-dom";
 
-const CONDATE = new Date("February 25, 2023 12:00:00").getTime();
+const CONDATE = new Date("February 25, 2023 8:00:00").getTime();
 
 function App() {
 
@@ -28,9 +28,6 @@ function Home() {
     <div className="Home">
       <img className='wcclogo' 
       src={require("./images/wcclogo.png")} alt={"WccLogo"}/>
-      <h1 className='title'>
-        WRECKCON 2023
-      </h1>
       <CountdownTimer targetDate={CONDATE} />
       <div className='link-body'>
         <Link to={"/get-involved"} className='link'> GET INVOLVED &bull; </Link>

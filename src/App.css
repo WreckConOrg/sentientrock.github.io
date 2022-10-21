@@ -3,7 +3,8 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 3vw;
-    width: 6vw;
+    margin-bottom: 2vw;
+    width: 15vw;
 }
 
 .title {
@@ -15,7 +16,7 @@
 
 .days, .hours, .minutes, .seconds, .colon {
     font-family: oswald-bold, Arial, Helvetica, sans-serif;
-    font-size: 7vw;
+    font-size: 9vw;
     color: white;
     float: left;
     margin-left: 5vw;
@@ -58,4 +59,21 @@
     pointer-events: none;
     opacity: 0.5;
     text-decoration: none;
+}
+
+.label {
+    font-size: 2vw;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    width:fit-content
+}
+
+.wcwip {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    width: 25vw;
 }
