@@ -2,7 +2,6 @@ import './App.css';
 import CountdownTimer from './CountdownTimer'
 import InvolvedPage from './InvolvedPage';
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
   Link
@@ -14,10 +13,17 @@ function App() {
 
   return (
     <div>
-      <Routes>
-        <Route path="/get-involved" element={<InvolvedPage />} />
-        <Route path="/" element={<Home />}/>
-      </Routes>
+      <div className ="main">
+        <Routes>
+          <Route path="/get-involved" element={<InvolvedPage />} />
+          <Route path="/" element={<Home />}/>
+        </Routes>
+      </div>
+      <footer>
+        <div className='footer'>
+          <a className='footer' href="mailto:info@wreckcon.org"> info@wreckcon.org </a>
+        </div>
+      </footer>
     </div>
   );
 }

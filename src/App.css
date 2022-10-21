@@ -2,8 +2,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3vw;
-    margin-bottom: 2vw;
+    margin-top: 4vw;
+    margin-bottom: 1vw;
     width: 15vw;
 }
 
@@ -21,7 +21,7 @@
     float: left;
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-top: 3vw;
+    margin-top: 1vw;
     margin-bottom: 5vw;
 }
 
@@ -31,12 +31,12 @@
 }
 
 .showCounter {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
     overflow: hidden;
-    width: fit-content
+    width: fit-content;
 }
 
 .link {
@@ -80,4 +80,17 @@
     margin-top: 3vw;
     margin-bottom: 2vw;
     width: 25vw;
+}
+
+.footer {
+    font-family: oswald, Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    color: darkgrey;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+
+    margin-top: 3%;
+    margin-bottom: 3%;
+    position: relative
 }
