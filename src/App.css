@@ -16,12 +16,13 @@
 
 .days, .hours, .minutes, .seconds, .colon {
     font-family: oswald-bold, Arial, Helvetica, sans-serif;
-    font-size: 9vw;
+    font-size: 10vw;
     color: white;
     float: left;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 3vw;
+    margin-bottom: 5vw;
 }
 
 .colon {
@@ -33,6 +34,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
     overflow: hidden;
     width: fit-content
 }
@@ -62,9 +64,11 @@
 }
 
 .label {
-    font-size: 2vw;
+    font-size: 1.6vw;
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
     justify-content: center;
     width:fit-content
 }
