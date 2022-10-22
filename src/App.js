@@ -36,9 +36,11 @@ function Home() {
       src={require("./images/wcclogo.png")} alt={"WccLogo"}/>
       <CountdownTimer targetDate={CONDATE} />
       <div className='link-body'>
-        <Link to={"/get-involved"} className='link'> GET INVOLVED &bull; </Link>
-        <Link to={"/nothing"} className='link-disabled' > TICKETS &bull; </Link>
-        <Link to={"/nothing"} className='link-disabled' > SCHEDULE  </Link>
+        <Link to={"/get-involved"} className='link'> GET INVOLVED</Link>
+        <Link to={'/'} className='link-disabled'> &bull; </Link>
+        <Link to={"/nothing"} className='link-disabled' > TICKETS</Link>
+        <Link to={'/'} className='link-disabled'> &bull; </Link>
+        <Link to={"/nothing"} className='link-disabled' > SCHEDULE</Link>
       </div>
     </div>
   );
