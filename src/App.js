@@ -1,6 +1,7 @@
 import './App.css';
 import CountdownTimer from './CountdownTimer'
 import InvolvedPage from './InvolvedPage';
+import AboutPage from './AboutPage'
 import {
   Routes,
   Route,
@@ -15,6 +16,7 @@ function App() {
     <div>
       <div className ="main">
         <Routes>
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/get-involved" element={<InvolvedPage />} />
           <Route path="/" element={<Home />}/>
         </Routes>
@@ -36,10 +38,12 @@ function Home() {
       src={require("./images/wcclogo.png")} alt={"WccLogo"}/>
       <CountdownTimer targetDate={CONDATE} />
       <div className='link-body'>
+        <Link to={"/about"} className='link'> ABOUT</Link>
+        <a href={'none'} className='link-disabled'> &bull; </a>
         <Link to={"/get-involved"} className='link'> GET INVOLVED</Link>
-        <Link to={'/'} className='link-disabled'> &bull; </Link>
+        <a href={'none'} className='link-disabled'> &bull; </a>
         <Link to={"/nothing"} className='link-disabled' > TICKETS</Link>
-        <Link to={'/'} className='link-disabled'> &bull; </Link>
+        <a href={'none'} className='link-disabled'> &bull; </a>
         <Link to={"/nothing"} className='link-disabled' > SCHEDULE</Link>
       </div>
     </div>
