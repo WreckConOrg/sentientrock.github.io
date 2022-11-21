@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ffb7f2ad.css",
+    "main.css": "/static/css/main.2b77a876.css",
     "main.js": "/static/js/main.685dfb05.js",
     "static/media/wcclogo.png": "/static/media/wcclogo.0a76f40ba55ff1366ab2.png",
     "static/media/Oswald-Bold.ttf": "/static/media/Oswald-Bold.7cbe6aaa312a7b0ce3d1.ttf",
@@ -8,11 +8,11 @@
     "static/media/digital-7 (mono).ttf": "/static/media/digital-7 (mono).ae951a188b593952b384.ttf",
     "static/media/sidebar.png": "/static/media/sidebar.310f7a186696f3428b11.png",
     "index.html": "/index.html",
-    "main.ffb7f2ad.css.map": "/static/css/main.ffb7f2ad.css.map",
+    "main.2b77a876.css.map": "/static/css/main.2b77a876.css.map",
     "main.685dfb05.js.map": "/static/js/main.685dfb05.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffb7f2ad.css",
+    "static/css/main.2b77a876.css",
     "static/js/main.685dfb05.js"
   ]
 }
