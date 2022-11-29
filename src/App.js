@@ -2,6 +2,7 @@ import './App.css';
 import CountdownTimer from './CountdownTimer'
 import InvolvedPage from './InvolvedPage';
 import AboutPage from './AboutPage'
+import ComingSoon from './ComingSoon';
 import {
   Routes,
   Route,
@@ -18,6 +19,8 @@ function App() {
         <Routes>
           <Route path="/about" element={<AboutPage />} />
           <Route path="/get-involved" element={<InvolvedPage />} />
+          <Route path="/tickets" element={<ComingSoon tickets={true} />} />
+          <Route path="/schedule" element={<ComingSoon schedule={true} />} />
           <Route path="/" element={<Home />}/>
         </Routes>
       </div>
@@ -37,14 +40,17 @@ function Home() {
       <img className='wcclogo' 
       src={require("./images/wcclogo.png")} alt={"WccLogo"}/>
       <CountdownTimer targetDate={CONDATE} />
+      <div className='date'> 
+       MARK YOUR CALENDARS - 02/25/2023
+      </div>
       <div className='link-body'>
         <Link to={"/about"} className='link'> ABOUT</Link>
         <a href={'none'} className='link-disabled'> &bull; </a>
         <Link to={"/get-involved"} className='link'> GET INVOLVED</Link>
         <a href={'none'} className='link-disabled'> &bull; </a>
-        <Link to={"/nothing"} className='link-disabled' > TICKETS</Link>
+        <Link to={"/tickets"} className='link' > TICKETS</Link>
         <a href={'none'} className='link-disabled'> &bull; </a>
-        <Link to={"/nothing"} className='link-disabled' > SCHEDULE</Link>
+        <Link to={"/schedule"} className='link' > SCHEDULE</Link>
       </div>
     </div>
   );

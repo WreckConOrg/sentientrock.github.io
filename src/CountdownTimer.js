@@ -44,4 +44,4 @@ const CountdownTimer = ({ targetDate }) => {
     );
 };
 
-export default CountdownTimer
+export default CountdownTimer;
