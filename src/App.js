@@ -3,6 +3,7 @@ import CountdownTimer from './CountdownTimer'
 import InvolvedPage from './InvolvedPage';
 import AboutPage from './AboutPage'
 import ComingSoon from './ComingSoon';
+import Redirect from './Redirect';
 import {
   Routes,
   Route,
@@ -19,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/about" element={<AboutPage />} />
           <Route path="/get-involved" element={<InvolvedPage />} />
-          <Route path="/tickets" element={<ComingSoon tickets={true} />} />
+          <Route path="/tickets" element={<Redirect />} />
           <Route path="/schedule" element={<ComingSoon schedule={true} />} />
           <Route path="/" element={<Home />}/>
         </Routes>
@@ -48,9 +49,11 @@ function Home() {
         <a href={'none'} className='link-disabled'> &bull; </a>
         <Link to={"/get-involved"} className='link'> GET INVOLVED</Link>
         <a href={'none'} className='link-disabled'> &bull; </a>
-        <Link to={"/tickets"} className='link' > TICKETS</Link>
+        <a href={'https://gatech.universitytickets.com/w/event.aspx?id=1942'} className='link' > TICKETS</a>
         <a href={'none'} className='link-disabled'> &bull; </a>
         <Link to={"/schedule"} className='link' > SCHEDULE</Link>
+        <a href={'none'} className='link-disabled'> &bull; </a>
+        <a href={'https://discord.gg/vDQBrk5EbB'} className='link'> DISCORD </a>
       </div>
     </div>
   );

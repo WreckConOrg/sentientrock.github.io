@@ -28,6 +28,16 @@ function AboutPage() {
                 <p className="info">
                     We would also like to thank the Georgia Tech Parents Fund! This event could not happen without their support. 
                 </p>
+                <p className="info">
+                    To stay informed of any updates about Wreckcon as they come out, join the mailing list or discord server below:
+                </p>
+                <a href="https://forms.gle/NHsDQPAxGrqLWdqX7" className="bigLink">
+                    MAILING LIST
+                </a>
+                <p/>
+                <a href="https://discord.gg/vDQBrk5EbB" className="bigLink">
+                    DISCORD SERVER
+                </a>
             </div>
         </div>
     )

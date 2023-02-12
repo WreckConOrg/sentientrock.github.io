@@ -165,11 +165,11 @@
 
 @media (max-width:510px) {
     .navlink {
-        font-size: 4.5vw;
+        font-size: 3.5vw;
     }
 
     .navbar {
-        height: 13vw;
+        height: 11vw;
     }
 }
 
@@ -188,7 +188,7 @@
 
 @media (max-width:500px) {
     .navlink-disabled {
-        font-size: 4.5vw;
+        font-size: 3.5vw;
     }
 }
 

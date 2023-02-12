@@ -11,11 +11,14 @@ function InvolvedPage() {
                     GET INVOLVED
                 </h1>
                 <p className='info'>
-                WreckCon is looking for <b className='spice'>you</b> to help us build something great. Help us transform this event into something more memorable by volunteering. Perks for getting involved include but are not limited to FREE food, FREE merchandise and FREE tabling space. In order to sign up, please click on the link below and fill out the interest form accordingly.
+                    WreckCon 2023 is no longer looking for volunteers, vendors or panelists for this year's event. However, if you'd like to stay in touch and get involved next year, or if you just have feedback on how we could make the event even better, feel free to join the mailing list or discord server below, and reach out to us by email at info@wreckcon.org or by phone at 404-820-2126.
                 </p>
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSf9f3dIseyon91cuFMt9u7KjlwEnuo2X1JhjphHkzPFwti2tQ/viewform' 
-                className='bigLink'>
-                    CLICK HERE TO SIGN UP
+                <a href="https://forms.gle/NHsDQPAxGrqLWdqX7" className="bigLink">
+                    MAILING LIST
+                </a>
+                <p/>
+                <a href="https://discord.gg/vDQBrk5EbB" className="bigLink">
+                    DISCORD SERVER
                 </a>
             </div>
         </div>

@@ -12,10 +12,12 @@ function Navbar(props) {
                 props.aboutDis ? 'navlink-disabled' : 'navlink'}> ABOUT </Link>}
             {<Link to={'/get-involved'} className={
                 props.involveDis ? 'navlink-disabled' : 'navlink'}> GET INVOLVED </Link>}
-            {<Link to={'/tickets'} className={
-                props.ticketsDis ? 'navlink-disabled' : 'navlink'}> TICKETS</Link> }
+            {<a href={'https://gatech.universitytickets.com/w/event.aspx?id=1942'} className={
+                props.ticketsDis ? 'navlink-disabled' : 'navlink'}> TICKETS</a> }
             {<Link to={'/schedule'} className={
                 props.scheduleDis ? 'navlink-disabled' : 'navlink'}> SCHEDULE</Link> }
+            {<a href={'https://discord.gg/vDQBrk5EbB'} className='navlink'>
+                DISCORD </a>}
         </div>
     )
 }
