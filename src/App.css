@@ -34,7 +34,7 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
     overflow: hidden;
     width: fit-content;
 }
@@ -96,7 +96,7 @@
 
     margin-top: 3%;
     margin-bottom: 3%;
-    position: relative
+    position: relative;
 }
 
 .leftTitle {
@@ -199,7 +199,7 @@
 .date {
     display: block;
     margin-top: 0;
-    margin-bottom: .5vh;
+    margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
@@ -212,3 +212,32 @@
 .spice {
     color: rgb(161, 161, 161);
 }
+
+.scheduleOpener {
+    width: 12em
+}
+
+.open {
+    font-family: oswald, Arial, Helvetica, sans-serif;
+    color: white;
+    letter-spacing: 0.06em;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+.container {
+    height: 0em;
+    transition: height .4s ease;
+    overflow-x: visible;
+    overflow-y: hidden;
+    position: absolute;
+}
+
+.schedule {
+    height: 40em;
+    padding-left: 1em;
+}
+
+#touch {position: absolute; opacity: 0; height: 0px;}
+#touch:checked + .container {height: 40em}
+#touch:checked + .open {content: "hello"}

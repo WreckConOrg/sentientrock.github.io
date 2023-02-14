@@ -16,6 +16,8 @@ function Navbar(props) {
                 props.ticketsDis ? 'navlink-disabled' : 'navlink'}> TICKETS</a> }
             {<Link to={'/schedule'} className={
                 props.scheduleDis ? 'navlink-disabled' : 'navlink'}> SCHEDULE</Link> }
+            {<Link to={'/panels'} className={
+                props.panelsDis ? 'navlink-disabled' : 'navlink'}> PANELS</Link> }
             {<a href={'https://discord.gg/vDQBrk5EbB'} className='navlink'>
                 DISCORD </a>}
         </div>

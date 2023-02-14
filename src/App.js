@@ -2,8 +2,9 @@ import './App.css';
 import CountdownTimer from './CountdownTimer'
 import InvolvedPage from './InvolvedPage';
 import AboutPage from './AboutPage'
-import ComingSoon from './ComingSoon';
+import Schedule from './Schedule';
 import Redirect from './Redirect';
+import Panels from './Panels';
 import {
   Routes,
   Route,
@@ -21,15 +22,11 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/get-involved" element={<InvolvedPage />} />
           <Route path="/tickets" element={<Redirect />} />
-          <Route path="/schedule" element={<ComingSoon schedule={true} />} />
+          <Route path="/schedule" element={<Schedule />} />
+          <Route path="/panels" element={<Panels />} />
           <Route path="/" element={<Home />}/>
         </Routes>
       </div>
-      <footer>
-        <div className='footer'>
-          <a className='footer' href="mailto:info@wreckcon.org"> info@wreckcon.org </a>
-        </div>
-      </footer>
     </div>
   );
 }
@@ -42,7 +39,7 @@ function Home() {
       src={require("./images/wcclogo.png")} alt={"WccLogo"}/>
       <CountdownTimer targetDate={CONDATE} />
       <div className='date'> 
-       MARK YOUR CALENDARS - 02/25/2023
+        MARK YOUR CALENDARS - 02/25/2023
       </div>
       <div className='link-body'>
         <Link to={"/about"} className='link'> ABOUT</Link>
@@ -52,6 +49,8 @@ function Home() {
         <a href={'https://gatech.universitytickets.com/w/event.aspx?id=1942'} className='link' > TICKETS</a>
         <a href={'none'} className='link-disabled'> &bull; </a>
         <Link to={"/schedule"} className='link' > SCHEDULE</Link>
+        <a href={'none'} className='link-disabled'> &bull; </a>
+        <Link to={"/panels"} className='link' > PANELS</Link>
         <a href={'none'} className='link-disabled'> &bull; </a>
         <a href={'https://discord.gg/vDQBrk5EbB'} className='link'> DISCORD </a>
       </div>
