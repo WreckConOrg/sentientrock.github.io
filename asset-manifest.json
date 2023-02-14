@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b44a5a4.css",
-    "main.js": "/static/js/main.f6f1e549.js",
+    "main.css": "/static/css/main.48b51ca1.css",
+    "main.js": "/static/js/main.5ae8f199.js",
     "static/media/wcclogo.png": "/static/media/wcclogo.0a76f40ba55ff1366ab2.png",
     "static/media/Oswald-Bold.ttf": "/static/media/Oswald-Bold.7cbe6aaa312a7b0ce3d1.ttf",
     "static/media/Oswald-Light.ttf": "/static/media/Oswald-Light.053299f7e6177eec7003.ttf",
+    "static/media/full_panel_announcement_dark_mode.png": "/static/media/full_panel_announcement_dark_mode.493e7c7a9ab9a0962b68.png",
     "static/media/digital-7 (mono).ttf": "/static/media/digital-7 (mono).ae951a188b593952b384.ttf",
     "static/media/sidebar.png": "/static/media/sidebar.310f7a186696f3428b11.png",
     "index.html": "/index.html",
-    "main.0b44a5a4.css.map": "/static/css/main.0b44a5a4.css.map",
-    "main.f6f1e549.js.map": "/static/js/main.f6f1e549.js.map"
+    "main.48b51ca1.css.map": "/static/css/main.48b51ca1.css.map",
+    "main.5ae8f199.js.map": "/static/js/main.5ae8f199.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b44a5a4.css",
-    "static/js/main.f6f1e549.js"
+    "static/css/main.48b51ca1.css",
+    "static/js/main.5ae8f199.js"
   ]
 }
