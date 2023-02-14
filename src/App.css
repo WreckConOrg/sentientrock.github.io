@@ -122,6 +122,11 @@
     overflow-x: hidden;
 }
 
+.link {
+    text-decoration: none;
+    color:#ffc800;
+}
+
 .info {
     font-family: oswald, Arial, Helvetica, sans-serif;
     font-size: 1.6em;
@@ -165,11 +170,11 @@
 
 @media (max-width:510px) {
     .navlink {
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 
     .navbar {
-        height: 11vw;
+        height: 9vw;
     }
 }
 
@@ -188,7 +193,7 @@
 
 @media (max-width:500px) {
     .navlink-disabled {
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 }
 
@@ -210,7 +215,22 @@
 }
 
 .spice {
-    color: rgb(161, 161, 161);
+    color: rgb(203, 203, 203);
+}
+
+.sub1 {
+    font-family: oswald, Arial, Helvetica, sans-serif;
+    color:  rgb(255, 255, 255);
+    font-size: 2em;
+    margin-bottom: 0em;
+}
+
+.sub2 {
+    font-family: oswald, Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    color: rgb(180, 180, 180);
+    max-width: 50%;
+    padding-top: 0.3em;
 }
 
 .scheduleOpener {
@@ -231,13 +251,14 @@
     overflow-x: visible;
     overflow-y: hidden;
     position: absolute;
+    margin-left: -1em;
 }
 
 .schedule {
-    height: 40em;
-    padding-left: 1em;
+    height: 35em;
+    padding-left: 0em;
 }
 
 #touch {position: absolute; opacity: 0; height: 0px;}
-#touch:checked + .container {height: 40em}
+#touch:checked + .container {height: 35em}
 #touch:checked + .open {content: "hello"}
