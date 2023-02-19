@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.fa952d38.css",
-    "main.js": "/static/js/main.7127301f.js",
-    "static/media/main_stage.png": "/static/media/main_stage.8bf1f838a04e61f10bb3.png",
+    "main.js": "/static/js/main.67fa0f5c.js",
+    "static/media/main_stage.png": "/static/media/main_stage.559b63eddcf131ea1367.png",
+    "static/media/panels.png": "/static/media/panels.31a7198783a262645bee.png",
     "static/media/wcclogo.png": "/static/media/wcclogo.0a76f40ba55ff1366ab2.png",
-    "static/media/panels.png": "/static/media/panels.73c2f634c135672fa588.png",
+    "static/media/TTRPG.png": "/static/media/TTRPG.cc167a78e456f9cee478.png",
+    "static/media/smash.png": "/static/media/smash.e4f7764b963fd994ef31.png",
     "static/media/Oswald-Bold.ttf": "/static/media/Oswald-Bold.7cbe6aaa312a7b0ce3d1.ttf",
     "static/media/Oswald-Light.ttf": "/static/media/Oswald-Light.053299f7e6177eec7003.ttf",
-    "static/media/dnd.png": "/static/media/dnd.e80110ff53ebd9105f5f.png",
-    "static/media/smash.png": "/static/media/smash.3a8150634f64ff0db819.png",
+    "static/media/open_play.png": "/static/media/open_play.010c3f38b7adc230f5c0.png",
     "static/media/digital-7 (mono).ttf": "/static/media/digital-7 (mono).ae951a188b593952b384.ttf",
-    "static/media/open_play.png": "/static/media/open_play.8f0014faaa55b8b360d7.png",
     "static/media/sidebar.png": "/static/media/sidebar.310f7a186696f3428b11.png",
     "index.html": "/index.html",
     "main.fa952d38.css.map": "/static/css/main.fa952d38.css.map",
-    "main.7127301f.js.map": "/static/js/main.7127301f.js.map"
+    "main.67fa0f5c.js.map": "/static/js/main.67fa0f5c.js.map"
   },
   "entrypoints": [
     "static/css/main.fa952d38.css",
-    "static/js/main.7127301f.js"
+    "static/js/main.67fa0f5c.js"
   ]
 }
