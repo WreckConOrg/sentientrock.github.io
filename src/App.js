@@ -27,6 +27,7 @@ function App() {
           <Route path="/" element={<Home />}/>
         </Routes>
       </div>
+      <div className="footer" />
     </div>
   );
 }

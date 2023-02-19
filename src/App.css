@@ -122,7 +122,7 @@
     overflow-x: hidden;
 }
 
-.link {
+.link2 {
     text-decoration: none;
     color:#ffc800;
 }
@@ -233,8 +233,10 @@
     padding-top: 0.3em;
 }
 
-.scheduleOpener {
-    width: 12em
+@media (max-width: 500px) {
+    .sub2 {
+        max-width: 90%;
+    }
 }
 
 .open {
@@ -245,20 +247,21 @@
     margin-bottom: 0;
 }
 
-.container {
-    height: 0em;
-    transition: height .4s ease;
-    overflow-x: visible;
-    overflow-y: hidden;
-    position: absolute;
-    margin-left: -1em;
-}
-
 .schedule {
-    height: 35em;
+    height: 40em;
     padding-left: 0em;
 }
 
-#touch {position: absolute; opacity: 0; height: 0px;}
-#touch:checked + .container {height: 35em}
-#touch:checked + .open {content: "hello"}
+@media (max-width: 500px) {
+    .schedule {
+        height: 110vw
+    }
+}
+
+.scheduleOpener {
+    height: 10em;
+    transition: height .4s ease;
+    overflow-x: absolute;
+    overflow-y: hidden;
+    margin-left: auto;
+}
