@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5f8c6bb.css",
-    "main.js": "/static/js/main.5ae8f199.js",
+    "main.css": "/static/css/main.fa952d38.css",
+    "main.js": "/static/js/main.7127301f.js",
+    "static/media/main_stage.png": "/static/media/main_stage.8bf1f838a04e61f10bb3.png",
     "static/media/wcclogo.png": "/static/media/wcclogo.0a76f40ba55ff1366ab2.png",
+    "static/media/panels.png": "/static/media/panels.73c2f634c135672fa588.png",
     "static/media/Oswald-Bold.ttf": "/static/media/Oswald-Bold.7cbe6aaa312a7b0ce3d1.ttf",
     "static/media/Oswald-Light.ttf": "/static/media/Oswald-Light.053299f7e6177eec7003.ttf",
-    "static/media/full_panel_announcement_dark_mode.png": "/static/media/full_panel_announcement_dark_mode.493e7c7a9ab9a0962b68.png",
+    "static/media/dnd.png": "/static/media/dnd.e80110ff53ebd9105f5f.png",
+    "static/media/smash.png": "/static/media/smash.3a8150634f64ff0db819.png",
     "static/media/digital-7 (mono).ttf": "/static/media/digital-7 (mono).ae951a188b593952b384.ttf",
+    "static/media/open_play.png": "/static/media/open_play.8f0014faaa55b8b360d7.png",
     "static/media/sidebar.png": "/static/media/sidebar.310f7a186696f3428b11.png",
     "index.html": "/index.html",
-    "main.c5f8c6bb.css.map": "/static/css/main.c5f8c6bb.css.map",
-    "main.5ae8f199.js.map": "/static/js/main.5ae8f199.js.map"
+    "main.fa952d38.css.map": "/static/css/main.fa952d38.css.map",
+    "main.7127301f.js.map": "/static/js/main.7127301f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5f8c6bb.css",
-    "static/js/main.5ae8f199.js"
+    "static/css/main.fa952d38.css",
+    "static/js/main.7127301f.js"
   ]
 }
