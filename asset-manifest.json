@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.fa952d38.css",
-    "main.js": "/static/js/main.ec5d1bc5.js",
+    "main.js": "/static/js/main.180dd965.js",
     "static/media/main_stage.png": "/static/media/main_stage.043ed98bba66651930be.png",
-    "static/media/panels.png": "/static/media/panels.31a7198783a262645bee.png",
+    "static/media/panels.png": "/static/media/panels.d74398cb535ae0b9a050.png",
     "static/media/wcclogo.png": "/static/media/wcclogo.0a76f40ba55ff1366ab2.png",
     "static/media/TTRPG.png": "/static/media/TTRPG.cc167a78e456f9cee478.png",
     "static/media/smash.png": "/static/media/smash.e4f7764b963fd994ef31.png",
@@ -14,10 +14,10 @@
     "static/media/sidebar.png": "/static/media/sidebar.310f7a186696f3428b11.png",
     "index.html": "/index.html",
     "main.fa952d38.css.map": "/static/css/main.fa952d38.css.map",
-    "main.ec5d1bc5.js.map": "/static/js/main.ec5d1bc5.js.map"
+    "main.180dd965.js.map": "/static/js/main.180dd965.js.map"
   },
   "entrypoints": [
     "static/css/main.fa952d38.css",
-    "static/js/main.ec5d1bc5.js"
+    "static/js/main.180dd965.js"
   ]
 }
