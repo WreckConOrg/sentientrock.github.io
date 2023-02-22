@@ -30,6 +30,31 @@
     margin-right: 0;
 }
 
+.rotate {
+    animation: rotation 8s infinite linear;
+    height: 30vw;
+    position: absolute;
+    overflow:auto;
+    top: 12vh;
+    left: 7vw;
+    margin-left: 55vw;
+}
+
+@media (max-width: 500px) {
+    .rotate {
+        opacity: 0;
+    }
+}
+  
+@keyframes rotation {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(359deg);
+}
+}
+
 .showCounter {
     display: flex;
     margin-left: auto;
@@ -260,7 +285,7 @@
 
 .scheduleOpener {
     height: 10em;
-    transition: height .4s ease;
+    transition: height .6s ease;
     overflow-x: absolute;
     overflow-y: hidden;
     margin-left: auto;

@@ -8,12 +8,16 @@ import Panels from './Panels';
 import {
   Routes,
   Route,
-  Link
+  Link,
+  useLocation
 } from "react-router-dom";
+import frogfr from "./images/frogfr.png"
 
-const CONDATE = new Date("February 25, 2023 8:00:00").getTime();
+const CONDATE = new Date("February 25, 2023 10:00:00").getTime();
 
 function App() {
+
+  const location = useLocation();
 
   return (
     <div>
@@ -26,6 +30,7 @@ function App() {
           <Route path="/panels" element={<Panels />} />
           <Route path="/" element={<Home />}/>
         </Routes>
+        {location.pathname === "/" ? null : <img className='rotate' src={frogfr} alt="ERROR" />}
       </div>
       <div className="footer" />
     </div>
