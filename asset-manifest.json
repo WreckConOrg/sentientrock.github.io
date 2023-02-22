@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.bae016fd.css",
-    "main.js": "/static/js/main.eed904e6.js",
+    "main.js": "/static/js/main.75853b11.js",
     "static/media/foodtrucks.PNG": "/static/media/foodtrucks.19223f551eb4b8056829.PNG",
     "static/media/frogfr.png": "/static/media/frogfr.a6493f047437422c0c10.png",
     "static/media/main_stage.png": "/static/media/main_stage.043ed98bba66651930be.png",
-    "static/media/panels.png": "/static/media/panels.d74398cb535ae0b9a050.png",
     "static/media/wcclogo.png": "/static/media/wcclogo.0a76f40ba55ff1366ab2.png",
+    "static/media/panels.png": "/static/media/panels.e9b361942e08c7bd9ee0.png",
     "static/media/TTRPG.png": "/static/media/TTRPG.cc167a78e456f9cee478.png",
     "static/media/smash.png": "/static/media/smash.e4f7764b963fd994ef31.png",
     "static/media/Oswald-Bold.ttf": "/static/media/Oswald-Bold.7cbe6aaa312a7b0ce3d1.ttf",
@@ -16,10 +16,10 @@
     "static/media/sidebar.png": "/static/media/sidebar.310f7a186696f3428b11.png",
     "index.html": "/index.html",
     "main.bae016fd.css.map": "/static/css/main.bae016fd.css.map",
-    "main.eed904e6.js.map": "/static/js/main.eed904e6.js.map"
+    "main.75853b11.js.map": "/static/js/main.75853b11.js.map"
   },
   "entrypoints": [
     "static/css/main.bae016fd.css",
-    "static/js/main.eed904e6.js"
+    "static/js/main.75853b11.js"
   ]
 }
