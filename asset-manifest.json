@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bae016fd.css",
-    "main.js": "/static/js/main.75853b11.js",
+    "main.css": "/static/css/main.1af4ed95.css",
+    "main.js": "/static/js/main.30208ec5.js",
     "static/media/foodtrucks.PNG": "/static/media/foodtrucks.19223f551eb4b8056829.PNG",
     "static/media/frogfr.png": "/static/media/frogfr.a6493f047437422c0c10.png",
     "static/media/main_stage.png": "/static/media/main_stage.043ed98bba66651930be.png",
@@ -14,12 +14,13 @@
     "static/media/open_play.png": "/static/media/open_play.010c3f38b7adc230f5c0.png",
     "static/media/digital-7 (mono).ttf": "/static/media/digital-7 (mono).ae951a188b593952b384.ttf",
     "static/media/sidebar.png": "/static/media/sidebar.310f7a186696f3428b11.png",
+    "static/media/tape_repeated.png": "/static/media/tape_repeated.4558b74b904bc6a58594.png",
     "index.html": "/index.html",
-    "main.bae016fd.css.map": "/static/css/main.bae016fd.css.map",
-    "main.75853b11.js.map": "/static/js/main.75853b11.js.map"
+    "main.1af4ed95.css.map": "/static/css/main.1af4ed95.css.map",
+    "main.30208ec5.js.map": "/static/js/main.30208ec5.js.map"
   },
   "entrypoints": [
-    "static/css/main.bae016fd.css",
-    "static/js/main.75853b11.js"
+    "static/css/main.1af4ed95.css",
+    "static/js/main.30208ec5.js"
   ]
 }
