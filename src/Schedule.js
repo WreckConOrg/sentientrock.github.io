@@ -33,8 +33,8 @@ function Schedule(props) {
                 <Scroller title={"MAIN STAGE"} max_height={height(33)}>
                     <img className="schedule" style={{height: height(33)}} src={main_stage} alt="Sorry, the schedule could not be loaded" />
                 </Scroller>
-                <Scroller title={"PANELS"} link={"/panels"} max_height={height(38.4)}>
-                    <img className="schedule" style={{height: height(38.4)}} src={panels} alt="Sorry, the schedule could not be loaded" />
+                <Scroller title={"PANELS"} link={"/panels"} max_height={height(35.5)}>
+                    <img className="schedule" style={{height: height(35.5)}} src={panels} alt="Sorry, the schedule could not be loaded" />
                 </Scroller>
                 <Scroller title={"SMASH"} max_height={height(26.3)} >
                     <img className="schedule" style={{height: height(26.3)}} src={smash} alt="Sorry, the schedule could not be loaded" />

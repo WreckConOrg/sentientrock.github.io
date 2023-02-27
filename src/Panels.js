@@ -8,9 +8,6 @@ function Panels(props) {
             <div className="mainSide">
                 <h1 className="leftTitle"> PANEL INFORMATION </h1>
                 <p className="sub1"> SATURDAY </p>
-                <p className="sub2"> <b>Descriptive Creative Writing</b></p>
-                <i className="info"> Abrar Siddiqui</i>
-                <p className="info">Creative writing, specifically description. Interesting ways of approaching abstraction and description within writing; the transition from symbols to detailed objects, which details to focus on when describing (the idea that you can never exactly construct one specific tree or complex object through writing), and how sentence ordering changes construction and emphasis of setting: why the origin and ordering of what you choose to describe matters.</p>
                 <p className="sub2"> <b>Slide into our DMs</b> </p>
                 <i className="info"> Alex Zonnenberg, Sebastian Toyotoshi and Ryan Arrazcaeta </i>
                 <p className="info"> Becoming a Dungeon Master for the first time can be daunting, but it doesn't have to be! Join 3 long-time DMs and seasoned D&D nerds in a conversation about running your first Dungeons and Dragons campaign. We'll talk about the important decisions to make while world-building, the purpose of adventures and how to design them, and methods for integrating your players into the world. We'll share our thoughts and experiences for the first half of the panel, and then open the floor to audience questions and specific advice.  </p><p className="sub2"> <b>Star Wars: RANKED</b></p>

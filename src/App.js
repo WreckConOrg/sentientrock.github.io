@@ -5,6 +5,7 @@ import AboutPage from './AboutPage'
 import Schedule from './Schedule';
 import Redirect from './Redirect';
 import Panels from './Panels';
+import confetti from 'canvas-confetti';
 import {
   Routes,
   Route,
@@ -38,6 +39,39 @@ function App() {
 }
 
 function Home() {
+
+  if (CONDATE <= Date.now()) {
+    var duration = 1000;
+    var end = Date.now() + duration;
+
+    (async function frame() {
+      // launch a few confetti from the left edge
+      confetti({
+        particleCount: 4,
+        angle: 50,
+        spread: 55,
+        origin: { x: 0 },
+        colors: ["#383C40", "#F2F5F8", "#FFCE56"],
+        scalar: 1.5,
+        decay: 0.91
+      });
+      // and launch a few from the right edge
+      confetti({
+        particleCount: 4,
+        angle: 130,
+        spread: 55,
+        origin: { x: 1 },
+        colors: ["#383C40", "#F2F5F8", "#FFCE56"],
+        scalar: 1.5,
+        decay: 0.91
+      });
+
+      // keep going until we are out of time
+      if (Date.now() < end) {
+        requestAnimationFrame(frame)
+      }
+    }());
+  }
 
   return (
     <div className="Home">

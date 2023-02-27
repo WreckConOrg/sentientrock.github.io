@@ -7,6 +7,10 @@
     width: 15vw;
 }
 
+.Home {
+    padding: 0
+}
+
 .title {
     font-family: oswald, Arial, Helvetica, sans-serif;
     color: white;
@@ -239,6 +243,12 @@ to {
     color:  gray;
 }
 
+@media (max-width: 500px) {
+    .date {
+        font-size: 2.5vw;
+    }
+}
+
 .spice {
     color: rgb(203, 203, 203);
 }
@@ -289,4 +299,70 @@ to {
     overflow-x: absolute;
     overflow-y: hidden;
     margin-left: auto;
+}
+
+.days_label {
+    display: flex;
+    margin: auto;
+    font-family: oswald-bold, Arial, Helvetica, sans-serif;
+    font-size: 8vw;
+    color: #292929;
+    float: left;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+}
+
+@media (max-width: 500px) {
+    .days_label {
+        font-size: 10vw
+    }
+}
+
+.emptyBox {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    background-image: url('./images/tape_repeated.png');
+    background-size: contain;
+}
+
+.showCounter_label {
+    display: flex;
+    margin-bottom: 0.5em;
+    overflow: hidden;
+    padding-left: 0;
+    /* background-image: url('./images/tape_repeated.png');
+    background-size: contain; */
+}
+  
+#scroll-text {
+    white-space: nowrap;
+
+    -moz-animation: my-animation 1900s linear infinite;
+    -webkit-animation: my-animation 1900s linear infinite;
+    animation: my-animation 1900s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+    from {
+        /* -moz-transform: translateX(0.1%);
+        -webkit-transform: translateX(0.1%);
+        transform: translateX(0.1%); */
+    }
+    to {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
 }

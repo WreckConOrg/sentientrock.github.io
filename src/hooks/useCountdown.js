@@ -18,6 +18,11 @@ const useCountdown = (targetDate) => {
 };
 
 const getReturnValues = (countDown) => {
+
+    if (countDown <= 0) {
+        return [0, 0, 0, 0];
+    }
+
     // calculate time left
     const days = Math.floor(countDown / (1000 * 60 * 60 * 24));
     const hours = Math.floor(
