@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.1af4ed95.css",
-    "main.js": "/static/js/main.1bcf6d6d.js",
+    "main.css": "/static/css/main.c7797a16.css",
+    "main.js": "/static/js/main.cd8292c6.js",
     "static/media/wcwip.png": "/static/media/wcwip.c5479ea7844965ff7629.png",
-    "static/media/foodtrucks.PNG": "/static/media/foodtrucks.19223f551eb4b8056829.PNG",
     "static/media/frogfr.png": "/static/media/frogfr.a6493f047437422c0c10.png",
     "static/media/main_stage.png": "/static/media/main_stage.cbaad3a4852b6cc0bf7d.png",
     "static/media/panels.png": "/static/media/panels.f22216536c95c9a8fd2d.png",
@@ -16,11 +15,11 @@
     "static/media/sidebar.png": "/static/media/sidebar.310f7a186696f3428b11.png",
     "static/media/tape_repeated.png": "/static/media/tape_repeated.4558b74b904bc6a58594.png",
     "index.html": "/index.html",
-    "main.1af4ed95.css.map": "/static/css/main.1af4ed95.css.map",
-    "main.1bcf6d6d.js.map": "/static/js/main.1bcf6d6d.js.map"
+    "main.c7797a16.css.map": "/static/css/main.c7797a16.css.map",
+    "main.cd8292c6.js.map": "/static/js/main.cd8292c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.1af4ed95.css",
-    "static/js/main.1bcf6d6d.js"
+    "static/css/main.c7797a16.css",
+    "static/js/main.cd8292c6.js"
   ]
 }
